@@ -44,24 +44,10 @@ var  posts = [
       "Technology is constantly evolving, and staying updated is essential. Explore the latest tech trends, gadgets, and innovations with us. Stay ahead in the digital world and make informed tech choices.",
     author: "Daniel Techie",
     date: "2023-08-30T14:20:00Z",
-  },{
-    id: 6,
-    title: "Tech Trends: Navigating the Digital Landscape",
-    content:
-      "Technology is constantly evolving, and staying updated is essential. Explore the latest tech trends, gadgets, and innovations with us. Stay ahead in the digital world and make informed tech choices.",
-    author: "Daniel Techie",
-    date: "2023-08-30T14:20:00Z",
-  },{
-    id: 7,
-    title: "Fitness & Wellness: Achieving a Healthier You",
-    content:
-      "Health is wealth, and fitness plays a vital role. This post is your guide to maintaining a healthier lifestyle. Learn about exercise routines, nutrition, and mental well-being. Start your journey to a more balanced life today.",
-    author: "Olivia Health",
-    date: "2023-10-02T08:00:00Z",
   },
 ];
 
-let lastId = 7;
+let lastId = 5;
 
 // Middleware
 app.use(bodyParser.json());
