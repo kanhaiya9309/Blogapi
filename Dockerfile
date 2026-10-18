@@ -1,4 +1,9 @@
+
 FROM node:18-alpine
+
+# Set container timezone to India
+ENV TZ=Asia/Kolkata
+RUN apk add --no-cache tzdata
 
 WORKDIR /app
 
